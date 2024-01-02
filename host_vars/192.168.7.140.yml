@@ -1,7 +1,6 @@
-ansible_user: pi
+ansible_user: niklas
 admin:
-  name: pi
-  key: "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
+  name: niklas
   email: "mariamuster@example.com"
 locale: de_DE.UTF-8
 timezone: Europe/Berlin
